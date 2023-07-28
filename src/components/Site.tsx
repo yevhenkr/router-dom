@@ -13,7 +13,7 @@ export const Site = () => {
             <div className={styles.header}><h1>HEADER</h1></div>
             <div className={styles.body}>
                 <div className={styles.nav}>
-                    <div><NavLink className={({isActive}) => isActive ? styles.active : styles.nav} to={'/page/0'}>Page
+                    <div><NavLink   to={'/page/0'}>Page
                         1</NavLink></div>
                     <div><NavLink className={({isActive}) => isActive ? styles.active : styles.nav} to={'/page/1'}>Page
                         2</NavLink></div>
